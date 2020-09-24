@@ -16,7 +16,7 @@
       app
     >
       <v-toolbar light flat>
-        <v-btn icon light>
+        <v-btn icon light @click="drawer = !drawer">
           <v-icon color="grey darken-2">mdi-close</v-icon>
         </v-btn>
 
@@ -71,7 +71,7 @@ export default {
       image: './background.svg',
       items: [
         {
-          icon: 'mdi-account',
+          icon: 'mdi-clipboard-check ',
           title: 'Captura de Datos',
           to: '/',
         },
