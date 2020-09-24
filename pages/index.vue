@@ -125,7 +125,7 @@ export default {
     submit() {
       if (this.$refs.form.validate()) {
         this.$axios
-          .put('https://postman-echo.com/put', {
+          .put('/put', {
             name: this.form.nombre,
             email: this.form.direccion,
             gender: this.form.genero,
