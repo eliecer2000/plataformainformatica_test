@@ -22,13 +22,13 @@
         <v-col class="ma-0 pa-0">
           <span class="group pa-2 text-center">
             <v-avatar size="30" class="mx-3">
-              <img src="/linkedin.svg" />
+              <img src="~/assets/linkedin.svg" />
             </v-avatar>
             <v-avatar size="30" class="mx-3">
-              <img src="/twitter.svg" />
+              <img src="~/assets/twitter.svg" />
             </v-avatar>
             <v-avatar size="30" class="mx-3">
-              <img src="/facebook.svg" />
+              <img src="~/assets/facebook.svg" />
             </v-avatar>
           </span>
         </v-col>

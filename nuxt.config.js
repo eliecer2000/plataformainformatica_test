@@ -7,7 +7,7 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   router: {
-    base: '/plataformainformatica_test/'
+    base: '/plataformainformatica_test/',
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -64,6 +64,9 @@ export default {
     '/put': {
       target: 'https://postman-echo.com',
     },
+  },
+  axios: {
+    proxy: true,
   },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
